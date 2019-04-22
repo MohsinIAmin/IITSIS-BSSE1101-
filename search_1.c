@@ -218,6 +218,162 @@ void sarch(char a)
         printf("\t\t#GPA:");
         scanf("%f",&cg);
         print_gpa(rol,'A',cg);
+    }else if(a=='T') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[8]='\0';
+        char cg[8];
+        printf("\t\t#SUBJECT:");
+        fflush(stdin);
+        fgets(cg,7,stdin);
+        print_result(rol,cg[2],cg[4],900,100);
+    }else if(a=='U') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[8]='\0';
+        int cg;
+        printf("\t\t#MARK:");
+        fflush(stdin);
+		scanf("%d",&cg);
+        print_result(rol,'Q','Q',cg,105);
+    }else if(a=='V') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[8]='\0';
+        int cg;
+        printf("\t\t#MARK:");
+        fflush(stdin);
+		scanf("%d",&cg);
+        print_result(rol,'Q','Q',cg,106);
+    }else if(a=='W') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[8]='\0';
+        float cg;
+        printf("\t\t#GPA:");
+        fflush(stdin);
+		scanf("%f",&cg);
+        print_result(rol,'Q','Q',107,cg);
+    }else if(a=='X') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[8]='\0';
+        float cg;
+        printf("\t\t#GPA:");
+        fflush(stdin);
+		scanf("%f",&cg);
+        print_result(rol,'Q','Q',108,cg);
+    }else if(a=='Y') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        char cg[8];
+        printf("\t\t#SUBJECT:");
+        fflush(stdin);
+        fgets(cg,7,stdin);
+        print_result(rol,cg[2],cg[4],900,100);
+    }else if(a=='Z') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        int cg;
+        printf("\t\t#MARK:");
+        fflush(stdin);
+		scanf("%d",&cg);
+        print_result(rol,'Q','Q',cg,105);
+    }else if(a=='a') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        int cg;
+        printf("\t\t#MARK:");
+        fflush(stdin);
+		scanf("%d",&cg);
+        print_result(rol,'Q','Q',cg,106);
+    }else if(a=='b') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        float cg;
+        printf("\t\t#GPA:");
+        fflush(stdin);
+		scanf("%f",&cg);
+        print_result(rol,'Q','Q',107,cg);
+    }else if(a=='c') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        float cg;
+        printf("\t\t#GPA:");
+        fflush(stdin);
+		scanf("%f",&cg);
+        print_result(rol,'Q','Q',108,cg);
+    }else if(a=='d') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        char cg[8];
+        printf("\t\t#SUBJECT:");
+        fflush(stdin);
+        fgets(cg,7,stdin);
+        int num;
+        fflush(stdin);
+        printf("\t\t#MARK:");
+        scanf("%d",&num);
+        print_result(rol,cg[2],cg[4],num,101);
+    }else if(a=='e') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        char cg[8];
+        printf("\t\t#SUBJECT:");
+        fflush(stdin);
+        fgets(cg,7,stdin);
+        int num;
+        fflush(stdin);
+        printf("\t\t#MARK:");
+        scanf("%d",&num);
+        print_result(rol,cg[2],cg[4],num,102);
+    }else if(a=='f') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        char cg[8];
+        printf("\t\t#SUBJECT:");
+        fflush(stdin);
+        fgets(cg,7,stdin);
+        float num;
+        fflush(stdin);
+        printf("\t\t#GPA:");
+        scanf("%f",&num);
+        print_result(rol,cg[2],cg[4],103,num);
+    }else if(a=='g') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[6]='\0';
+        char cg[8];
+        printf("\t\t#SUBJECT:");
+        fflush(stdin);
+        fgets(cg,7,stdin);
+        float num;
+        fflush(stdin);
+        printf("\t\t#GPA:");
+        scanf("%f",&num);
+        print_result(rol,cg[2],cg[4],104,num);
     }
     printf("\t\t#DO YOU WANT TO SEARCH AGAIN(Y/N)\n\t\t#");
     fflush(stdin);
@@ -227,4 +383,3 @@ void sarch(char a)
     } else
         return;
 }
-
