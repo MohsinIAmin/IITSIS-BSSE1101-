@@ -25,3 +25,4 @@ void res(char*,int);
 void update_cgpa(char*,double,int);
 void print_cgpa(char*,char,float);
 void print_gpa(char*,char,float);
+void print_result(char*,char,char,int,float);
