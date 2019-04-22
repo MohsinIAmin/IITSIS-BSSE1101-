@@ -1,0 +1,144 @@
+Mohsin Ibna Amin
+Gazipur
+BSSE1101
+123456
+Fahim Morshad
+Barisal
+BSSE1102
+123123
+Mathab Hossan Jalak
+FH
+BSSE1103
+121212
+Md Siam
+Rangpur
+BSSE1104
+000001
+Fahad Hassan
+Comilla
+BSSE1105
+000002
+Hasnain Iqbal
+Jhinaidha
+BSSE1106
+000003
+Samiha Noshin
+Gopaljang
+BSSE1107
+000004
+Nazmus Shakib Ahmad
+Dhaka
+BSSE1108
+000005
+Jafar Mahin
+Dhaka
+Bsse1109
+000006
+Musfiquer Rahaman
+Dhaka
+BSSE1110
+000007
+Kazi Muktadir
+Dhanmondi
+BSSE1111
+000008
+Arif Hasan
+FH
+BSSE1112
+000009
+Injamam Ul Haqe
+Rangpur
+BSSE1113
+000013
+Musthaid Sakib
+Chittagong
+BSSE1114
+000014
+Dada Sureka
+Kustia
+BSSE1115
+000015
+Mukter Hossain
+B.Baria
+BSSE1116
+000016
+Rahat
+Chankharpul
+BSSE1117
+000017
+Khairul
+Shyllet
+BSSE1118
+000019
+Jubair Hossain
+Shyllet
+BSSE1119
+000019
+Alif
+Gazipur
+BSSE1120
+000020
+Piash Mahmud
+Jamalpur
+BSSE1121
+000021
+Saad Noor
+Dhaka
+BSSE1122
+000022
+Nahid
+Chankharpul
+BSSE1123
+000023
+Asharaf Santo
+Shyllet
+BSSE1124
+000024
+Shafiq
+Dhaka
+BSSE1125
+000025
+Rudro
+Katar
+BSSE1126
+000026
+Tahmid Mahbub
+Naraynjang
+BSSE1127
+000027
+Tasmia
+Chittagong
+BSSE1128
+000027
+Rakib Tarofder
+Jamalpur
+BSSE1129
+000029
+Galib
+Dhaka
+BSSE1130
+000030
+Proma
+Dhaka
+BSSE1131
+000031
+Adnan
+Barisla
+BSSE1132
+000032
+Hitler
+Garmany
+BSSE1133
+000033
+J.W.Bush
+U.S.A
+BSSE1134
+000034
+Barak Obama
+U.S.A
+BSSE1135
+000035
+Dip
+Rangpur
+BSSE1001
+001001
