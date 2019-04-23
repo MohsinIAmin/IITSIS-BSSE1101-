@@ -19,6 +19,7 @@ void search_menu()
             printf("\t\t#ROLL[FULL HISTORY](press 2)\n");
             printf("\t\t#ROLL[PROFILE](press 5)\n");
             printf("\t\t#ROLL[FULL RESULT](press 9)\n");
+            printf("\t\t#ROLL[RESULT AT A SEMESTER](press h)\n");
             printf("\t\t#ROLL[CGPA AT A SEMESTER](press B)\n");
             printf("\t\t#ROLL[CGPA OF ALL SEMESTER](press D)\n");
             printf("\t\t#ROLL[GPA AT A SEMESTER](press K)\n");
@@ -28,6 +29,7 @@ void search_menu()
             printf("\t\t#ROLL[BATCH FULL HISTORY](press 7)\n");
             printf("\t\t#ROLL[BATCH PROFILE](press 8)\n");
             printf("\t\t#ROLL[BATCH FULL RESULT](press A)\n");
+            printf("\t\t#ROLL[BATCH RESULT AT A SEMESTER](press i)\n");
             printf("\t\t#ROLL[BATCH CGPA AT A SEMESTER](press C)\n");
             printf("\t\t#ROLL[BATCH CGPA OF ALL SEMESTER](press E)\n");
             printf("\t\t#ROLL[BATCH GPA AT A SEMESTER](press L)\n");
@@ -165,6 +167,11 @@ void search_menu()
         printf("\t\t#Just Write BSSE(batch_number)i.e. BSSE01,BSSE02 and so on#\n");
         sarch(temp);
     } else if(temp=='g') {
+        printf("\t\t#Just Write BSSE(batch_number)i.e. BSSE01,BSSE02 and so on#\n");
+        sarch(temp);
+    }else if(temp=='h') {
+        sarch(temp);
+    }else if(temp=='i') {
         printf("\t\t#Just Write BSSE(batch_number)i.e. BSSE01,BSSE02 and so on#\n");
         sarch(temp);
     }
