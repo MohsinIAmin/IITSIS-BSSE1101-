@@ -374,6 +374,26 @@ void sarch(char a)
         printf("\t\t#GPA:");
         scanf("%f",&num);
         print_result(rol,cg[2],cg[4],104,num);
+    }else if(a=='h') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,10,stdin);
+        rol[8]='\0';
+        char j=0;
+        printf("\t\t#SEMESTER:");
+        fflush(stdin);
+        scanf("%c",&j);
+        print_result(rol,j,'9',109,110);
+    } else if(a=='i') {
+        printf("\t\t#ROLL:");
+        fflush(stdin);
+        fgets(rol,8,stdin);
+        rol[6]='\0';
+        char j=0;
+        printf("\t\t#SEMESTER:");
+        fflush(stdin);
+        scanf("%c",&j);
+        print_result(rol,j,'9',109,110);
     }
     printf("\t\t#DO YOU WANT TO SEARCH AGAIN(Y/N)\n\t\t#");
     fflush(stdin);
