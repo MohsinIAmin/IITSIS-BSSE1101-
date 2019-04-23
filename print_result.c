@@ -72,9 +72,17 @@ void print_result(char *rol,char t,char f,int num,float g)
                     printf("%s\t%s\t%d\t%s\t%.2f\n",roll1,sub[i],s[i],gl[i],gp[i]);
                 } else if(gp[i]<=g&&num==108) {
                     printf("%s\t%s\t%d\t%s\t%.2f\n",roll1,sub[i],s[i],gl[i],gp[i]);
+                }else if(num==109&&sub[i][2]==t) {
+                    printf("%s\t%s\t%d\t%s\t%.2f\n",roll1,sub[i],s[i],gl[i],gp[i]);
                 }
             }
             i=0;
+        }roll1[0]='\0';
+        for(int j=0;j<6;j++){
+			sub[i][0]='\0';
+			s[i]=0;
+			gl[i][0]='\0';
+			gp[i]=0;
         }
     }
 }
