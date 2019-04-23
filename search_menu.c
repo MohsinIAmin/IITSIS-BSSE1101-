@@ -1,50 +1,70 @@
 #include"function.h"
 void search_menu()
-{
-    char temp;
+{    char temp;
     printf("\t\t#SEARCH OPTIONS\n");
-    printf("\t\t#NAME[FULL HISTORY](press 1)\n");
-    printf("\t\t#ROLL[FULL HISTORY](press 2)\n");
-    printf("\t\t#REGISTRATION NO[FULL HISTORY](press 3)\n");
-    printf("\t\t#NAME[PROFILE](press 4)\n");
-    printf("\t\t#ROLL[PROFILE](press 5)\n");
-    printf("\t\t#REGISTRATION NO[PROFILE](press 6)\n");
-    printf("\t\t#ROLL[BATCH FULL HISTORY](press 7)\n");
-    printf("\t\t#ROLL[BATCH PROFILE](press 8)\n");
-    printf("\t\t#ROLL[FULL RESULT](press 9)\n");
-    printf("\t\t#ROLL[BATCH FULL RESULT](press A)\n");
-    printf("\t\t#ROLL[CGPA AT A SEMESTER](press B)\n");
-    printf("\t\t#ROLL[BATCH CGPA AT A SEMESTER](press C)\n");
-    printf("\t\t#ROLL[CGPA OF ALL SEMESTER](press D)\n");
-    printf("\t\t#ROLL[BATCH CGPA OF ALL SEMESTER](press E)\n");
-    printf("\t\t#ROLL[BATCH CGPA OVER](press F)\n");
-    printf("\t\t#ROLL[BATCH CGPA UNDER](press G)\n");
-    printf("\t\t#ROLL[BATCH CGPA EXACT](press H)\n");
-    printf("\t\t#ROLL[INDIVUDIAL CGPA OVER](press I)\n");
-    printf("\t\t#ROLL[INDIVIDUAL CGPA UNDER](press J)\n");
-    printf("\t\t#ROLL[GPA AT A SEMESTER](press K)\n");
-    printf("\t\t#ROLL[BATCH GPA AT A SEMESTER](press L)\n");
-    printf("\t\t#ROLL[GPA OF ALL SEMESTER](press M)\n");
-    printf("\t\t#ROLL[BATCH GPA OF ALL SEMESTER](press N)\n");
-    printf("\t\t#ROLL[BATCH GPA OVER](press O)\n");
-    printf("\t\t#ROLL[BATCH GPA UNDER](press P)\n");
-    printf("\t\t#ROLL[BATCH GPA EXACT](press Q)\n");
-    printf("\t\t#ROLL[INDIVUDIAL GPA OVER](press R)\n");
-    printf("\t\t#ROLL[INDIVIDUAL GPA UNDER](press S)\n");
-    printf("\t\t#ROLL,SUBJECT[MARK](press T)\n");
-    printf("\t\t#ROLL[OVER MARK](press U)\n");
-    printf("\t\t#ROLL[UNDER MARK](press V)\n");
-    printf("\t\t#ROLL[OVER GPA](press W)\n");
-    printf("\t\t#ROLL[UNDER GPA](press X)\n");
-    printf("\t\t#ROLL,SUBJECT(BATCH)[MARK](press Y)\n");
-    printf("\t\t#ROLL(BATCH)[OVER MARK](press Z)\n");
-    printf("\t\t#ROLL(BATCH)[UNDER MARK](press a)\n");
-    printf("\t\t#ROLL(BATCH)[OVER GPA](press b)\n");
-    printf("\t\t#ROLL(BATCH)[UNDER GPA](press c)\n");
-    printf("\t\t#ROLL,SUBJECT(BATCH)[OVER MARK](press d)\n");
-    printf("\t\t#ROLL,SUBJECT(BATCH)[UNDER MARK](press e)\n");
-    printf("\t\t#ROLL,SUBJECT(BATCH)[OVER GPA](press f)\n");
-    printf("\t\t#ROLL,SUBJECT(BATCH)[UNDER GPA](press g)\n\t\t#");
+    printf("\t\t#By NAME(press 1)\n\t\t#By ROLL(press 2)\n\t\t#REGISTRATION NO.(press 3)\n\t\t#");
+    int i=0;
+    fflush(stdin);
+    scanf("%d",&i);
+    if(i==1) {
+        printf("\t\t#NAME[FULL HISTORY](press 1)\n");
+        printf("\t\t#NAME[PROFILE](press 4)\n\t\t#");
+    }
+    if(i==2) {
+        printf("\t\t#INDIVIDUAL(press 1)\t\t#BATCH(press 2)\n\t\t#COMPARISON(press 3)\n\t\t#");
+        int j=0;
+        fflush(stdin);
+        scanf("%d",&j);
+        if(j==1) {
+            printf("\t\t#ROLL[FULL HISTORY](press 2)\n");
+            printf("\t\t#ROLL[PROFILE](press 5)\n");
+            printf("\t\t#ROLL[FULL RESULT](press 9)\n");
+            printf("\t\t#ROLL[CGPA AT A SEMESTER](press B)\n");
+            printf("\t\t#ROLL[CGPA OF ALL SEMESTER](press D)\n");
+            printf("\t\t#ROLL[GPA AT A SEMESTER](press K)\n");
+            printf("\t\t#ROLL[GPA OF ALL SEMESTER](press M)\n");
+            printf("\t\t#ROLL,SUBJECT[MARK](press T)\n\t\t#");
+        } else if(j==2) {
+            printf("\t\t#ROLL[BATCH FULL HISTORY](press 7)\n");
+            printf("\t\t#ROLL[BATCH PROFILE](press 8)\n");
+            printf("\t\t#ROLL[BATCH FULL RESULT](press A)\n");
+            printf("\t\t#ROLL[BATCH CGPA AT A SEMESTER](press C)\n");
+            printf("\t\t#ROLL[BATCH CGPA OF ALL SEMESTER](press E)\n");
+            printf("\t\t#ROLL[BATCH GPA AT A SEMESTER](press L)\n");
+            printf("\t\t#ROLL[BATCH GPA OF ALL SEMESTER](press N)\n");
+            printf("\t\t#ROLL,SUBJECT(BATCH)[MARK](press Y)\n\t\t#");
+        } else if(j==3) {
+            printf("\t\t#INDIVUDIAL(press 1)\n\t\t#BATCH(press 2)\n\t\t#");
+            int k=0;
+            fflush(stdin);
+            scanf("%d",&k);
+            if(k==1) {
+                printf("\t\t#ROLL[INDIVUDIAL CGPA OVER](press I)\n");
+                printf("\t\t#ROLL[INDIVIDUAL CGPA UNDER](press J)\n");
+                printf("\t\t#ROLL[OVER MARK](press U)\n");
+                printf("\t\t#ROLL[UNDER MARK](press V)\n");
+                printf("\t\t#ROLL[OVER GPA](press W)\n");
+                printf("\t\t#ROLL[UNDER GPA](press X)\n\t\t#");
+            } else if(k==2) {
+                printf("\t\t#ROLL[BATCH CGPA OVER](press F)\n");
+                printf("\t\t#ROLL[BATCH CGPA UNDER](press G)\n");
+                printf("\t\t#ROLL[BATCH GPA OVER](press O)\n");
+                printf("\t\t#ROLL[BATCH GPA UNDER](press P)\n");
+                printf("\t\t#ROLL(BATCH)[OVER MARK](press Z)\n");
+                printf("\t\t#ROLL(BATCH)[UNDER MARK](press a)\n");
+                printf("\t\t#ROLL(BATCH)[OVER GPA](press b)\n");
+                printf("\t\t#ROLL(BATCH)[UNDER GPA](press c)\n");
+                printf("\t\t#ROLL,SUBJECT(BATCH)[OVER MARK](press d)\n");
+                printf("\t\t#ROLL,SUBJECT(BATCH)[UNDER MARK](press e)\n");
+                printf("\t\t#ROLL,SUBJECT(BATCH)[OVER GPA](press f)\n");
+                printf("\t\t#ROLL,SUBJECT(BATCH)[UNDER GPA](press g)\n\t\t#");
+            }
+        }
+    }
+    if(i==3) {
+        printf("\t\t#REGISTRATION NO[FULL HISTORY](press 3)\n");
+        printf("\t\t#REGISTRATION NO[PROFILE](press 6)\n\t\t#");
+    }
     fflush(stdin);
     temp=getchar();
     if(temp=='1'||temp=='2'||temp=='3') {
