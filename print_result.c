@@ -75,6 +75,7 @@ void print_result(char *rol,char t,char f,int num,float g)
                 }else if(num==109&&sub[i][2]==t) {
                     printf("%s\t%s\t%d\t%s\t%.2f\n",roll1,sub[i],s[i],gl[i],gp[i]);
                 }
+		if(sub[i][2]=='7')break;
             }
             i=0;
         }roll1[0]='\0';
